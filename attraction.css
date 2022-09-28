@@ -12,13 +12,18 @@ article h2 {
 
 article section {
     margin-bottom: 1em;
+    word-spacing: 2px;
+   
 }
 
 p {
     font-size: 20px
+  
 }
 
 ul {
     font-size: 20px;
 }
+
+
 
