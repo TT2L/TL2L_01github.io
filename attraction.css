@@ -25,5 +25,20 @@ ul {
     font-size: 20px;
 }
 
+img {
+    width: 1000px;
+    height: 800px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
 
+#background {
+   background-image: url(https://thumbs.dreamstime.com/b/health-safety-environment-icon-set-web-header-banner-183586413.jpg);
+   background-size: cover;
+   background-position: center;
+   padding: 100px;
+ 
+  
+  }
 
