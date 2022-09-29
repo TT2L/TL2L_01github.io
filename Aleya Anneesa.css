@@ -1,0 +1,22 @@
+img {
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr { display: block; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+}
+
+section {
+    font-size: 23px;
+
+}
+
