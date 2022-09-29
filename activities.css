@@ -10,7 +10,7 @@
 
 h1 {
     background-image: url(https://blog.tiket.com/wp-content/uploads/Parasailing.jpg);
-    background-size: cover;
+    background-size: crgb(84, 163, 84)
     background-position: center;
     padding: 1000px;
     margin-top: auto;

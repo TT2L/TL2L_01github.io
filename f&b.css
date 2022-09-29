@@ -1,7 +1,83 @@
-body {
-    font-size: 30px;
+header h1 {
+    background-image: url(https://i.pinimg.com/736x/6b/14/6c/6b146cae9ade4d9599b21b695bf1ca21.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+}    
+
+header h3 {
+    background-image: url(https://i.pinimg.com/564x/49/82/89/4982891fe9db0e96ba01a4a8e81809e1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    font-size: 80px;
+    color: rgba(210, 105, 30, 0.808);
+    opacity: 1px;
+    text-align: center;
 }
 
 p {
- font-size: 20px;
+    font-size: 17px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgba(28, 139, 65, 0.864)
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .checked {
+    color: orange;
+  }
+
+header h4 {
+    font-size: 20px;
+}
+
+header h5 {
+    font-size: 19px;
+}
+
+.restaurants {
+ font-size: 18px;
+}
+
+
+
+
+
+figcaption {
+    text-align: left;
+    font-size: 16px;
+}
+
+ul.b {
+    list-style-type: square;
+  }
+
+img {
+    width: 500px;
+    height: 500px;
 }
