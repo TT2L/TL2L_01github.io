@@ -15,6 +15,10 @@ article section {
     word-spacing: 2px;
    
 }
+h1 { 
+    font-size: 100px;
+    color: white;
+}
 
 p {
     font-size: 20px
@@ -23,22 +27,76 @@ p {
 
 ul {
     font-size: 20px;
+
 }
 
-img {
-    width: 1000px;
-    height: 800px;
+ h1{
+    background-image: url(https://www.nomadasaurus.com/wp-content/uploads/2017/11/Cliff-Diving-Adventure-Activities-In-Portugal.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%
+    
+}
+
+article img {
+    height: 600px;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin: 50px auto;
+  }
+
+.navigationbar {
+  position: relative;
+  background-color:burlywood;
+  margin-inline: 90px;
 }
 
-#background {
-   background-image: url(https://thumbs.dreamstime.com/b/health-safety-environment-icon-set-web-header-banner-183586413.jpg);
-   background-size: cover;
-   background-position: center;
-   padding: 100px;
- 
-  
+.navigationbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navigationbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgb(198, 116, 39);
   }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+ol {
+    font-size: 20px;
+}
+
+.main {
+    background-color: blanchedalmond;
+}
 
