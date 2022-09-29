@@ -1,0 +1,109 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap.woff2')
+      format('woff2'),
+         url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap.woff')
+      format('woff'),
+         url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap.ttf')
+      format('truetype');
+  }
+  
+* {
+    box-sizing: border-box;
+}
+  
+header {
+    background-image: url(https://i.guim.co.uk/img/media/5fad9cdd4d6b46596d3e1504e13e820e1d30ffe1/0_200_3000_1800/master/3000.jpg?width=1300&quality=85&fit=max&s=87d001baedeee39d2a549de19b96493f);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+  
+.navigationbar {
+    position: relative;
+    background-color: white;
+    margin-inline: 90px;
+  }
+  
+.navigationbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+navigationbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+h1 {
+    font-family: RobotoSlab;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+  
+h2 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+  
+article {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 15px;
+    color: rgb(2, 2, 18);
+}
+  
+article section {
+    display: block;
+    margin: 30px 0 30px 0;
+    text-align: justify;
+    letter-spacing: 1.15px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+}
+
+#villa {
+    height: 400px;
+    display: block;
+    margin: 50px auto;
+}
+
+figcaption {
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: italic;
+}
+  
+#image {
+    flex-basis: 40%
+}
+  
+#description {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#row {
+    display: flex;
+}
+  
+#column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
