@@ -1,0 +1,55 @@
+* { 
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+}
+
+img {
+  height: 300px;
+  display: block;
+  margin: 50px auto;
+}
+
+.profile header {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.profile section {
+    margin: 30px 20px;
+}
+
+.general header {
+    background-color: beige;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#biography header {
+    font-weight: 700px;
+}
+
+#biography {
+    margin: 30px 20px;
+}
+
+.education header {
+    background-color: beige;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#undergraduate header {
+    font-weight: 700;
+}
+
+#undergraduate {
+    margin: 30px 20px;
+}
