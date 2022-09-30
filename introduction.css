@@ -22,7 +22,7 @@ header {
 .navigationbar {
   position: relative;
   background-color: white;
-  margin-inline: 20px;
+  margin-inline: 100px;
 }
 
 .navigationbar a {
@@ -30,7 +30,7 @@ header {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 10px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
