@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(231, 225, 216);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(245, 245, 213);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(223, 211, 166);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.AboutMe, .PersonalExperience, .Education, .Awards {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+
+.checked {
+    color: rgb(43, 43, 157);
+  }
+
+  table {
+    padding-top: 10px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddde3;
+    text-align: left;
+    padding: 8px;
+  }
+  
