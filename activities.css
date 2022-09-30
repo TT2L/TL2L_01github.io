@@ -10,7 +10,7 @@
 
 h1 {
     background-image: url(https://blog.tiket.com/wp-content/uploads/Parasailing.jpg);
-    background-size: crgb(84, 163, 84)
+    background-size: cover;
     background-position: center;
     padding: 1000px;
     margin-top: auto;
@@ -77,7 +77,7 @@ navigationbar {
   ul {
     list-style-type: none;
     margin: 10px;
-    padding: 10px;
+    padding: 8px;
     overflow: hidden;
     background-color:rgb(198, 116, 39);
   }
@@ -90,7 +90,7 @@ navigationbar {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
     font-size: 25px;
   }
