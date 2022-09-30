@@ -1,0 +1,77 @@
+header h1 {
+    background-image: url(https://travel-boo.com/wp-content/uploads/2021/05/best-souvenirs-from-Portugal.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    font-size: 100px;
+    color: rgba(196, 46, 35, 0.91);
+    text-align: center;
+ 
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgba(139, 28, 28, 0.864)
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 1px auto;
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+figure {
+    margin: 10px;
+}
+  
+div.gallery {
+    margin: 50px;
+    padding: 30px;
+    border: 2.5px solid rgb(0, 0, 0);
+    float: left;
+    width: 210px;
+  }
+  
+  div.gallery:hover {
+    border: 10px solid rgba(113, 23, 13, 0.594);
+  }
+  
+   div.gallery img {
+    width: 100%;
+    height: 100px;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }

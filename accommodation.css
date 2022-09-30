@@ -72,14 +72,14 @@ article section {
 }
 
 figure {
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
 img {
     height: 350px;
     width: 350px;
     display: block;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 figcaption {
