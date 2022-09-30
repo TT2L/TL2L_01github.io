@@ -22,15 +22,16 @@ header {
 .navigationbar {
     position: relative;
     background-color: white;
-    margin-inline: 15px;
+    margin-inline: 150px;
   }
   
 .navigationbar a {
+    font-size: 20px;
     float: left;
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 10px;
+    padding: 14px 16px;
     text-decoration: none;
   }
   

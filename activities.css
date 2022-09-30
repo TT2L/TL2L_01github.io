@@ -43,6 +43,7 @@ h1 {
     width: fit-content;
     padding: 4%;
     background-color: rgb(131, 70, 5);
+    color: white;
 }
 
 .intro {
@@ -50,10 +51,9 @@ h1 {
     display: inline-block;
     width: fit-content;
     padding: 4%;
-    background-color: rgb(99, 86, 73);
 }
 
-navigationbar {
+.navigationbar {
     position: relative;
     background-color: white;
     margin-inline: 90px;
@@ -69,7 +69,7 @@ navigationbar {
   }
   
   
-  navigationbar a:hover {
+  .navigationbar a:hover {
     background-color: #ddd;
     color: black;
   }
