@@ -83,7 +83,7 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
     font-size: 25px;
   }
@@ -100,3 +100,8 @@ ol {
     background-color: blanchedalmond;
 }
 
+iframe { 
+  height: 300px;
+  display: block;
+  margin: 50px auto;
+}
