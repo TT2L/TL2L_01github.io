@@ -19,8 +19,12 @@ header h3 {
     text-align: center;
 }
 
+article {
+  margin: 100px auto;
+}
+
 p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 ul {
@@ -65,16 +69,26 @@ header h5 {
 }
 
 figcaption {
-    text-align: left;
+    text-align: center;
     font-size: 16px;
+}
+
+section {
+  margin: 30px auto;
 }
 
 ul.b {
     list-style-type: square;
   }
 
+div {
+  margin: 50px auto;
+}
+
 img {
     width: 500px;
     height: 500px;
     margin: 20px auto;
+    display: block;
+    margin: 15px auto;
 }
