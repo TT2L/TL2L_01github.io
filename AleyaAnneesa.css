@@ -2,7 +2,9 @@
   font-family: 'Times New Roman', Times, serif;
   }
 
-
+  * {
+    background-color: white;
+  }
 
 img {
     height: 400px;
