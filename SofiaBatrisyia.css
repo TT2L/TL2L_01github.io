@@ -4,6 +4,7 @@
 
 h1 {
     text-align: left;
+    margin-left: 20px;
 }
 
 img {
@@ -16,10 +17,12 @@ img {
     font-size: 20px;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .profile section {
     margin: 30px 20px;
+    font-size: 16px;
 }
 
 .general header {
@@ -30,12 +33,8 @@ img {
     padding: 5px 0;
 }
 
-#biography header {
-    font-weight: 700px;
-}
-
-#biography {
-    margin: 30px 20px;
+.general section {
+    margin: 30px 20px
 }
 
 .education header {
@@ -46,10 +45,38 @@ img {
     padding: 5px 0;
 }
 
-#undergraduate header {
-    font-weight: 700;
+.education section {
+    margin: 30px 20px
 }
 
-#undergraduate {
-    margin: 30px 20px;
+.training header {
+    background-color: beige;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.training section {
+    margin: 30px 20px
+}
+
+.involvements header {
+    background-color: beige;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.achievements header {
+    background-color: beige;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+li {
+    margin: 30px;
 }
