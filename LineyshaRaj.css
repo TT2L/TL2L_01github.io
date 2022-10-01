@@ -58,14 +58,16 @@ h3{
 
 div.gallery {
   margin: 50px;
-  padding: 75px;
+  padding: 20px;
   border: 2px solid rgb(0, 0, 0);
   float: left;
   width: 200px;
+  background-color: white;
+ 
 }
 
 div.gallery:hover {
-  border: 10px solid rgb(68, 42, 3);
+  border: 10px solid rgb(6, 46, 91);
 }
 
  div.gallery img {
@@ -78,4 +80,20 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+html{
+  background-color:rgb(192, 219, 229);
+}
+
+section.description {
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(8, 9, 74);
+    color: white;
+    font-size: 20px;
+    float:left;
+    margin-top: auto;
+    
+}
+
 
