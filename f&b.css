@@ -14,7 +14,7 @@ header h3 {
     background-position: center;
     padding: 50px;
     font-size: 80px;
-    color: rgba(210, 105, 30, 0.808);
+    color: rgb(255, 251, 247);
     opacity: 1px;
     text-align: center;
 }
@@ -88,6 +88,7 @@ div {
 img {
     width: 500px;
     height: 500px;
+    margin: 20px auto;
     display: block;
     margin: 15px auto;
 }
